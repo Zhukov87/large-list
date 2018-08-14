@@ -65,7 +65,7 @@ class LargeList extends Component {
 
     return (
       <div>
-        <form onSubmit={event => this.handleCreateList}>
+        <form onSubmit={this.handleCreateList}>
           <input
             type="text"
             value={this.state.listSize}
